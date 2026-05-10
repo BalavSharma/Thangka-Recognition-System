@@ -1,13 +1,3 @@
-import os
-import subprocess
-
-# Ultra-safe OpenCV headless bypass specifically for Streamlit Cloud
-try:
-    import cv2
-except ImportError:
-    subprocess.check_call(["pip", "uninstall", "-y", "opencv-python"])
-    subprocess.check_call(["pip", "install", "opencv-python-headless"])
-
 import torch
 import timm
 import streamlit as st
