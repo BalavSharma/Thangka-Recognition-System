@@ -1,0 +1,15 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# OS Files
+.DS_Store
+
+# Datasets and Images
+Dataset/
+Web-scrapped Images/
+
+# Note: Streamlit Community Cloud needs the models from the Model/ directory, so it is NOT ignored.
